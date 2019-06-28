@@ -2,7 +2,7 @@
   "name": "nodebb-plugin-slack-notify",
   "version": "0.0.11",
   "description": "Simple nodebb plugin that notify slack about posts",
-  "homepage": "https://github.com/lakshmipriyamukundan/nodebb-plugin-slack-notifier#readme",
+  "homepage": "https://github.com/CongTran96/nodebb-plugin-slack-notifier#readme",
   "author": "Lakshmipriya.mukundan@gmail.com <lakshmipriya.mukundan@gmail.com> (https://twitter.com/lakshmipriya)",
   "main": "dist/src/index.js",
   "typings": "dist/src/index.d.ts",
