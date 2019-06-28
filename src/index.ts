@@ -79,6 +79,14 @@ export async function savePost(newPost: any) {
     ': ' +
     (topicResult as any).title +
     ']>\n' +
+    '<' +
+    nconf.get('url') +
+    '/user/' +
+    (userResult as any).username +
+    '|' +
+    (userResult as any).username +
+    '>' +
+    ': ' +
     content;
 
   // tslint:disable-next-line
