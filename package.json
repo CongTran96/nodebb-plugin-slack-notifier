@@ -16,10 +16,9 @@
   "keywords": [],
   "license": "MIT",
   "scripts": {
-    "build": "gulp build",
     "lint-noFix": "gulp lint-noFix",
     "lint": "npm run prettier && npm run tslint",
-    "test": "npm run build && npm run test-core",
+    "test": "echo \"Error: no test specified\"",
     "test-core": "jest --config=./ci-jest.config.json --forceExit --detectOpenHandles",
     "compile": "tsc",
     "prettier": "prettier \"{src/**/*.*,typings/**/*.*,tests/**/*.*}\" --write",
